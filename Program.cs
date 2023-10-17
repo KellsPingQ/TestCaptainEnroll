@@ -19,13 +19,13 @@ namespace TestCaptainEnroll
             Console.WriteLine("Hello TestCaptainEnroll.");
 
             /* get current path */
-            // Console.WriteLine(System.IO.Path.GetDirectoryName(Assembly.GetEntryAssembly().Location));
+            Console.WriteLine(System.IO.Path.GetDirectoryName(Assembly.GetEntryAssembly().Location));
 
             /* start up "TestManager.exe" */
             Process.Start(path);
             
             /* hold the console, if not, "TestCaptainEnroll.exe" will close itself */
-            // Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }
