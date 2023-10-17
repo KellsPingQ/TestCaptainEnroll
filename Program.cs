@@ -10,6 +10,8 @@ namespace TestCaptainEnroll
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello TestCaptainEnroll");
+            Console.ReadLine();
         }
     }
 }
